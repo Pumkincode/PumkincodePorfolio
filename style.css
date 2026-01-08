@@ -39,6 +39,14 @@ h2 {
   color: #cfe9f3;
 }
 
+/* ===== HERO CONTAINER ===== (a begépelt szöveg itt van középen) */ 
+.hero { text-align: center; max-width: 700px; } 
+.hero p { font-size: 80px; line-height: 1.3; font-weight: 600; } 
+/* ===== NAME HIGHLIGHT ===== */
+ #name { background: linear-gradient(90deg,#EEAECA,#94BBE9); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-weight: 700; }
 
 /* ======================================================
    SIDEBAR
@@ -151,7 +159,24 @@ h2 {
   transform: none;
   box-shadow: none;
 }
-
+/* ======================================================
+   HOME PAGE DECORATIONS */
+.content { margin-left: 260px;
+   min-height: 100vh; padding: 40px 40px; 
+   position: relative; 
+  background: #1F4E63; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; } 
+  .hero-container 
+  { min-height: 100vh; 
+    display: flex; align-items: center;
+     justify-content: center;
+      text-align: center;
+      }
+       #intro { max-width: 700px; 
+         margin: 0 auto; 
+       text-align: center; font-size: 28px; }
 
 /* ======================================================
    DECORATIVE LINES 
